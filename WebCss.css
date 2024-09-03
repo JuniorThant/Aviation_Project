@@ -1,0 +1,139 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: lightyellow;
+}
+section{
+	content: "";
+	clear: both;
+	display: table;
+}
+[class*='col-']{
+	float: left;
+	padding: 15px;
+}
+b{
+	color: black;
+}
+p{
+	color: darkblue;
+}
+html{
+	font-family: "Lucida Sans",sans-serif;
+	text-decoration: none;
+	}
+
+header{
+	background-image: url(Image/OIP.jfif);
+	color: white;
+	padding: 40px;
+	font-size: 40px;
+	font-family: Cooper Black;
+}
+nav.menu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+nav.menu li{
+	padding:  8px;
+	margin-bottom:  7px;
+	background-color: lightblue;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24);
+	color: black;
+}
+nav.menu a{
+	text-decoration: none;
+	color: darkred;
+}
+nav.menu li:hover{
+	background-color: blueviolet;
+}
+h1{   
+	color: darkred;
+	font: bold;
+	font-family: Britanic Bold;
+	text-decoration: none;
+}
+h3{
+	color: darkblue;
+	font-style: italic;
+}
+h2{
+	color: red;
+}
+aside{
+	padding:  8px;
+	margin-bottom:  7px;
+	background-color: lightgreen;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24);
+	color: coral;
+	font-size: 14px;
+	text-align: center;
+}
+aside#bluea {
+	padding:  8px;
+	margin-bottom:  7px;
+	background-color: lightblue;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24);
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+footer{
+	padding:  15px;
+	margin-bottom:  7px;
+	background-color: red;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24);
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	text-align: top;
+}
+form#formMR{
+	background-image: url(Image/PG1.jfif);
+	background-size: 1500px;
+	
+
+	color: black;
+	font-size: 15px;
+}
+div#Cloudbg{
+
+background-image: url(Image/Cloud.jpg);
+size: 10px;
+}
+
+
+[class*='col-']{ 
+width: 100%;
+ }
+ @media only screen and (min-width: 600px){
+ 	.col-m-1{width: 8.33%}
+ 	.col-m-2{width: 16.66%}
+ 	.col-m-3{width: 25%}
+ 	.col-m-4{width: 33.33%}
+ 	.col-m-5{width: 41.66%}
+ 	.col-m-6{width: 50%}
+ 	.col-m-7{width: 58.33%}
+ 	.col-m-8{width: 66.66%}
+ 	.col-m-9{width: 75%}
+ 	.col-m-10{width: 83.33%}
+ 	.col-m-11{width: 91.66%}
+.col-m-12{width: 100%}
+ }
+ @media only screen and (min-width: 768px){
+ 	.col-m-1{width: 8.33%}
+ 	.col-m-2{width: 16.66%}
+ 	.col-m-3{width: 25%}
+ 	.col-m-4{width: 33.33%}
+ 	.col-m-5{width: 41.66%}
+ 	.col-m-6{width: 50%}
+ 	.col-m-7{width: 58.33%}
+ 	.col-m-8{width: 66.66%}
+ 	.col-m-9{width: 75%}
+ 	.col-m-10{width: 83.33%}
+ 	.col-m-11{width: 91.66%}
+.col-m-12{width: 100%}
+ }
